@@ -18,9 +18,11 @@ p {
   font-weight: 300;
 }
 
-#img { 
+#img {
+  width: 100%;
   border: none;
 }
+
 
 .org { 
   color: #54ba6a;
