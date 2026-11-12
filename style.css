@@ -1,28 +1,46 @@
 body { 
-  background: #f3f5a0;
+  background: linear-gradient(45deg, hotpink, lime, yellow, cyan, blue, violet);
   text-align: center;
 }
 
+h1 { 
+  color:lime;
+  background-color: purple;
+  border: 15px dashed red; 
+  padding: 40px;
+  margin-left: 150px;
+}
+
 p { 
+  
   font: normal 1.125em/1.6em "Helvetica", Arial, sans-serif;
-  color: #464646;
+  color: yellow; 
+  padding: 40px;
+  margin-left: 200px;
+  background-color: magenta;
 }
 
 .id { 
   margin-bottom: 1em;
+  padding: 50px;
+  border: 8px dashed red;
 }
 
 #class { 
   line-height: 1.1;
-  font-family: "Roboto Slab", serif;
+  font-family: "comic sans ms", cursive;
   font-weight: 300;
+  margin-left: 300px;
+  background-color: cyan;
 }
 
 #img {
   width: 100%;
-  border: none;
+  border: 12px dotted red;
+  border-right: 20px dashed blue;
+  border-bottom: 6px solid yellow;
+  border-left: 15px double purple;
 }
-
 
 .org { 
   color: #54ba6a;
@@ -32,3 +50,10 @@ p {
   ul li { 
   color: #2e8b57;
 }
+
+ul {
+  margin-left: 350px;
+  padding: 60px;
+  border: 10px ridge lime;  
+}
+
