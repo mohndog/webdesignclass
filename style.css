@@ -57,3 +57,20 @@ ul {
   border: 10px ridge lime;  
 }
 
+page2 {
+  background-color: black;
+  color: hotpink;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.columns div {
+  background-color: orange;
+  color: blue;
+  border: 10px ridge lime;
+  padding: 25px;
+}
